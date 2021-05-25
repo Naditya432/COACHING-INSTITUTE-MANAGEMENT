@@ -1,0 +1,145 @@
+.bg {
+    background-color: #035AFA;
+}
+
+.navbar-expand-md {
+    text-align: center;
+}
+
+a:hover {
+    background-color: #1F03FA;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #1F03FA;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1F03FA;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.neet {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 250px;
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.neet:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.neet:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 46px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.contact-form {
+    text-align: center;
+    border: 5px dashed #1F03FA;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto 0px auto;
+}
+
+.input {
+    margin: 1em;
+    border-radius: 5px;
+}
+
+label {
+    color: #035AFA;
+    font: bold 15px arial, sans-serif;
+}
+
+
+.sub {
+    background: #035AFA;
+    color: white;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: #035AFA;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 20px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+}
+
+.sel {
+    background-color: #035AFA;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font: bold 15px arial, sans-serif;
+}
+
+.dropdown-menu {
+    background-color: #1F7DDE;
+    border-radius: 20px;
+    font: bold 15px arial, sans-serif;
+    color: white;
+}
+
+.backend {
+    text-transform: uppercase;
+    font: bold 10px arial, sans-serif;
+    text-align: center;
+    margin: 70px,70px;
+}
+
+.thead {
+    color: red;
+    font-size: 20px;
+}
+
+.tbody {
+    color: #1F03FA;
+}

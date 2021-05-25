@@ -1,0 +1,156 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+    <title>AAKASH INSTITUTE</title>
+    <link rel="icon" href="/images/logo.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg navbar-dark fixed-top"> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#collapse_Navbar"> 
+            <span class="navbar-toggler-icon"></span> 
+        </button> 
+          
+        <a href="/home">
+            <img src="images/nav_logo.png" class="logo">
+        </a>
+        <div class="collapse navbar-collapse" id="collapse_Navbar"> 
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item"> 
+                    <a class="nav-link" href="/home" style="color: aliceblue; font-size: 20px; font-family: fantasy;">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/about" style="color: aliceblue; font-size: 20px; font-family: fantasy;">AboutUs!</a>
+                </li>
+
+                <li class="nav-item"> 
+                    <a class="nav-link" href="/students" style="color: aliceblue; font-size: 20px; font-family: fantasy;">Students</a>
+                </li> 
+              
+                <li class="nav-item dropdown"> 
+                    <a class="nav-link dropdown-toggle" href="/courses" id="navbardrop" data-toggle="dropdown"  style="color: aliceblue; font-size: 20px; font-family: fantasy;">Courses</a> 
+                      
+                    <div class="dropdown-menu"> 
+                        <a class="dropdown-item" href="/engineering">ENGINEERING</a> 
+                        <a class="dropdown-item" href="/medical">MEDICAL</a>
+                        <a class="dropdown-item" href="/foundation">FOUNDATION</a> 
+                    </div> 
+                </li>
+              
+                <li class="nav-item">
+                    <a class="nav-link" href="/gallery" style="color: aliceblue; font-size: 20px; font-family: fantasy;">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/register" style="color: aliceblue; font-size: 20px; font-family: fantasy;">Register</a>
+                </li>
+            </ul>
+        </div> 
+    </nav>s
+
+    <div id="GFG" class="carousel slide" data-ride="carousel"> 
+      
+    <!-- Indicators -->
+    <ul class="carousel-indicators"> 
+        <li data-target="#GFG" data-slide-to="0" class="active"></li> 
+        <li data-target="#GFG" data-slide-to="1"></li> 
+        <li data-target="#GFG" data-slide-to="2"></li>
+        <li data-target="#GFG" data-slide-to="3"></li>  
+    </ul> 
+      
+    <!-- The slideshow -->
+    <div class="carousel-inner"> 
+        <div class="carousel-item active"> 
+            <img src="images/b1.png" alt="GFG" width="100%" height="400">    
+        </div> 
+          
+        <div class="carousel-item"> 
+            <img src= "images/b2.png" alt="GFG" width="100%" height="400"> 
+        </div> 
+          
+        <div class="carousel-item"> 
+            <img src= "images/b3.png" alt="GFG" width="100%" height="400"> 
+        </div>
+
+        <div class="carousel-item"> 
+            <img src= "images/b4.png" alt="GFG" width="100%" height="400">   
+        </div>
+
+        <div class="carousel-item"> 
+            <img src= "images/b5.jpg" alt="GFG" width="100%" height="400"> 
+        </div> 
+    </div> 
+    </div>
+
+    <div class="container wrapper">
+        <div class="contact-form">
+            <h3>Register Here!</h3>
+            <form action="/participants" method="POST">
+                <div>
+                    <label for="FIRSTNAME">FIRSTNAME : </label>
+                    <input type="text" class="input" placeholder="FIRST NAME" name="fname" required>
+                </div>
+                <div>
+                    <label for="LASTNAME">LASTNAME : </label>
+                    <input type="text" class="input" placeholder="LAST NAME" name="lname" required>
+                </div>
+                <div>
+                    <label for="EMAIL">EMAIL : </label>
+                    <input type="email" class="input" placeholder="EMAIL" name="email" required>
+                </div>
+                <div>
+                    <label for="MALE" class="input">MALE</label>
+                    <input id="male" type="radio" name="Gender" value="Male" required>
+                    <label for="FEMALE" class="input">FEMALE</label>
+                    <input id="male" type="radio" name="Gender" value="Female" required>
+                </div>
+                <div>
+                    <select name="stream" id="input" class="sel">
+                        <option value="STREAM" disabled>STREAM</option>
+                        <option value="ENGINEERING">ENGINEERING</option>
+                        <option value="MEDICAL">MEDICAL</option>
+                        <option value="FOUNDATION">FOUNDATION</option>
+                    </select>
+                    <select name="classes" id="input" class="sel" name="clg">
+                        <option value="CLASS" disabled>CLASS</option>
+                        <option value="class VI">CLASS VI</option>
+                        <option value="class VII">CLASS VII</option>
+                        <option value="CLASS VIII">CLASS VIII</option>
+                        <option value="CLASS IX">CLASS IX</option>
+                        <option value="CLASS X">CLASS X</option>
+                        <option value="CLASS XI">CLASS XI</option>
+                        <option value="CLASS XII">CLASS XII</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="checkbox">I agree to the terms and conditions</label>
+                    <input id="checkbox" type="checkbox" name="checkbox" required="checkbox">
+                </div>
+                <div class="submit">
+                    <input type="submit" class="sub">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="/script/script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
